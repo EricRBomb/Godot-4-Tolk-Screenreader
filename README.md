@@ -1,5 +1,10 @@
 # Godot-4-Tolk-Screenreader
+
+#Plugin test
 A test godot project showing c sharp code that allows sending to Screenreader and lag free windows TTS
+
+#Standalone 
+The script and needed DLLS to make it work to add to another project.
 
 This allows sending to a variety of screen readers using TOLK:
 https://github.com/dkager/tolk
@@ -12,9 +17,11 @@ For new projects to work, make sure the DLLS go with the script, and TolkDotNet.
 Functions of script:
 
 _Ready()
+
 Load Tolk, inital load of script also readies the Synth which calls windows default TTS if no screen reader is found.
 
 Say(string text)
+
 Reads out string passed to it. Will try using screen reader first, will pass to Windows TTS if fails.
 
 
@@ -24,5 +31,11 @@ This ONLY impacts Windows TTS and requires a number between -10 and 10.
 Default speed is bad, let your players choose it.
 
 ScreenCheck()
+
 Tells you if a screen reader is connected or not. 
 Can use this to show option to change Windows TTS speed if no screen reader is connected. 
+
+
+Licenses included with attached DLLS.
+
+This is mostly a wrappter, please expand on this and improve it and cite me or don't. I'm not a cop.
