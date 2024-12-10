@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsspumv7pxfeg"]
+
+[ext_resource type="Script" path="res://TTS.cs" id="1_547pe"]
+
+[node name="caller" type="Node"]
+script = ExtResource("1_547pe")

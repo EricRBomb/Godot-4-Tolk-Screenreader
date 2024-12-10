@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cw6hwimhriuwt"]
+
+[ext_resource type="Script" path="res://button.gd" id="1_kr43e"]
+[ext_resource type="PackedScene" uid="uid://bsspumv7pxfeg" path="res://caller.tscn" id="2_81qne"]
+
+[node name="Button" type="Button"]
+offset_right = 140.0
+offset_bottom = 91.0
+script = ExtResource("1_kr43e")
+
+[node name="caller" parent="." instance=ExtResource("2_81qne")]
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
