@@ -41,6 +41,19 @@ Tells you if a screen reader is connected or not.
 Can use this to show option to change Windows TTS speed if no screen reader is connected. 
 
 
+# Want to make blind accessible games, but don't know where to start?
+
+Discord for developers of blind accessible games and blind gamers:
+
+https://discord.gg/tqQXqX8gEq
+
+Wiki with resources and examples for making blind accessible games:
+
+https://gamesforblindgamers.miraheze.org/wiki/Main_Page
+
+
+
+
 Licenses included with attached DLLS.
 
 This is mostly a wrappter, please expand on this and improve it and cite me or don't. I'm not a cop.
