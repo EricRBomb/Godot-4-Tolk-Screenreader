@@ -1,6 +1,6 @@
 using Godot;
-using DavyKager;
-using System.Speech.Synthesis;
+using DavyKager; // add TolkDotNet.dll as a dependency to make this work
+using System.Speech.Synthesis; //Install system.speech from Nuget manager 
 
 
 public partial class TTS : Node
