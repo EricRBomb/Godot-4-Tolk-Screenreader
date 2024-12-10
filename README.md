@@ -1,9 +1,11 @@
 # Godot-4-Tolk-Screenreader
 
-#Plugin test
+# Plugin test
+
 A test godot project showing c sharp code that allows sending to Screenreader and lag free windows TTS
 
-#Standalone 
+# Standalone 
+
 The script and needed DLLS to make it work to add to another project.
 
 This allows sending to a variety of screen readers using TOLK:
