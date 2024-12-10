@@ -6,7 +6,10 @@ A test godot project showing c sharp code that allows sending to Screenreader an
 
 # Standalone 
 
-The script and needed DLLS to make it work to add to another project.
+The script and needed DLLS to make it work in another project
+
+
+# About
 
 This allows sending to a variety of screen readers using TOLK:
 https://github.com/dkager/tolk
