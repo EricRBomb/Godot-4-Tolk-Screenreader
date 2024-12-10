@@ -28,7 +28,7 @@ Load Tolk, inital load of script also readies the Synth which calls windows defa
 
 `Say(string text)`
 
-Reads out string passed to it. Will try using screen reader first, will pass to Windows TTS if fails.
+Reads out string passed to it. If there's a screen reader connected, will send it to the screen reader. If none are connected or detected, will pass to Windows TTS.
 
 
 `Set_rate(int val)`
