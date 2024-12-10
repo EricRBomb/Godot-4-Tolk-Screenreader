@@ -18,9 +18,15 @@ https://github.com/dkager/tolk
 If no screen reader is detected, it will then send to Windows TTS with a new implementation. 
 Godot 4.3 TTS currently lags out the project, but this one does not.
 
-For new projects to work, make sure the DLLS go with the script, and TolkDotNet.Dll is added as a depedency.
+# For new projects to work:
 
-Functions of script:
+Make sure the **DLLS** go with the script
+
+**TolkDotNet.Dll** is added as a depedency
+
+Add **System.Speech Version 6** to your C# project. Despite being in SYSTEM, it is not installed by default.  Version 6 is what this was tested to with as newer versions require higher versions of DotNET.
+
+# Functions of script:
 
 `_Ready()`
 
